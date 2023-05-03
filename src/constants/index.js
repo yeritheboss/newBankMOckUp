@@ -13,9 +13,59 @@ export const navLinks = [
     id: "product",
     title: "Product",
   },
-  { ",
-    name: "Fred Peterson",
-    title: "Founder & Leader of Y-Space",
+  {
+    id: "clients",
+    title: "Clients",
+  },
+];
+
+export const features = [
+  {
+    id: "feature-1",
+    icon: star,
+    title: "Rewards",
+    content:
+      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+  },
+  {
+    id: "feature-2",
+    icon: shield,
+    title: "100% Secured",
+    content:
+      "We take proactive steps make sure your information and transactions are secure.",
+  },
+  {
+    id: "feature-3",
+    icon: send,
+    title: "Balance Transfer",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
+
+export const feedback = [
+  {
+    id: "feedback-1",
+    content:
+      "I really appreciate how smooth and intuitive the payment process was on your webpage. The interface was clean and easy to navigate, allowing me to complete my transaction without any hassle. It was evident that you prioritized user experience, and it made the entire payment process a breeze.",
+    name: "Lola Jensen",
+    title: "Founder & Leader of ROYAL Investing",
+    img: people01,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "I was impressed by the level of security implemented on your webpage for the new payment method. I felt confident in providing my payment information as I noticed the presence of trust indicators and encryption protocols. It's reassuring to know that my sensitive data is being protected while making a payment, and it reflects your commitment to customer safety.",
+    name: "Steve Mark",
+    title: "Founder & Leader of Yerisoft",
+    img: people02,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "The documentation and support provided for the new payment method were incredibly useful. The FAQs and step-by-step guides made it easy for me to understand and adopt the new payment method effectively. Additionally, having a dedicated customer support channel where I could seek assistance further improved my experience. It's evident that you value customer satisfaction and are committed to ensuring a seamless payment experience.",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader C&O",
     img: people03,
   },
 ];
